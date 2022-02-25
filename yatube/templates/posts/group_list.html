@@ -15,7 +15,9 @@
       <p>
         {{ post.text }}
       </p>
-		  {% if not forloop.last %}<hr>{% endif %}
+      {% if not forloop.last %}
+        <hr>
+      {% endif %}
     {% endfor %}  
   </div> 
 {% endblock %} 
