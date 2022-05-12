@@ -1,11 +1,6 @@
-<html>
-  <head>
-    <title>Об авторе</title>
-  </head>    
-  <body>
-    <div class="header">ФИО</div>
-    <h1>Годы жизни</h1>
-    <p>Инфо</p>
-    <div class="footer">© копирайт</div>
-  </body>
-</html> 
+{% extends "base.html" %}
+{% block title %}Об авторе проекта{% endblock %}
+{% block content %}
+<h1>Привет, я автор</h1>
+<p><a href = "https://github.com/im-anna-k">Аккаунт на Гитхабе</a></p>
+{% endblock %} 
